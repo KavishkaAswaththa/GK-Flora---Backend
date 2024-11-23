@@ -21,7 +21,7 @@ public class InventoryController {
     @Autowired
     private InventoryService inventoryService;
 
-    private ImageService imageService;
+
 
 
 
@@ -32,10 +32,7 @@ public class InventoryController {
         return inventory.get_id();
 
     }
-    public String uploadImage(@RequestParam("file") MultipartFile file) throws IOException {
 
-        return imageService.uploadImage(file);
-    }
 
 
 
