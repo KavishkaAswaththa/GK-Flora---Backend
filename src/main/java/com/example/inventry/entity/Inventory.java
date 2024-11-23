@@ -1,25 +1,31 @@
-package com.example.Inventry.Entity;
+package com.example.inventry.entity;
 
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.List;
+
 @Document(collection="Inventory")
 public class Inventory {
 
     @Id
-    private int ItemId;
+    private String ItemId;
     private String ItemName;
 
 
-    public Inventory(int ItemId,String ItemName){
+
+
+    public Inventory(String ItemId,String ItemName){
         this.ItemId=ItemId;
         this.ItemName=ItemName;
+
+
 
     }
 
 
-    public int get_id() {
+    public String get_id() {
         return ItemId;
     }
 
