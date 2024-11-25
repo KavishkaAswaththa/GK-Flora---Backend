@@ -1,7 +1,7 @@
-package com.example.demo.CutomerRepo;
+package com.example.inventry.CutomerRepo;
 
-import com.example.demo.Entity.Customer;
-import com.example.demo.Repo.CustomerRepo;
+import com.example.inventry.Entity.Customer;
+import com.example.inventry.Repo.CustomerRepo;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

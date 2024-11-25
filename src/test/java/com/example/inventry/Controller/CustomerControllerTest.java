@@ -1,8 +1,8 @@
-package com.example.demo.Controller;
+package com.example.inventry.Controller;
 
-import com.example.demo.Cotroller.CustomerController;
-import com.example.demo.Entity.Customer;
-import com.example.demo.Service.CustomerServices;
+import com.example.inventry.Cotroller.CustomerController;
+import com.example.inventry.Entity.Customer;
+import com.example.inventry.Service.CustomerServices;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

@@ -1,6 +1,6 @@
-package com.example.demo.Repo;
+package com.example.inventry.Repo;
 
-import com.example.demo.Entity.Customer;
+import com.example.inventry.Entity.Customer;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
