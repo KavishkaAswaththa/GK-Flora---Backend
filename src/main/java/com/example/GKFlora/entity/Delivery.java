@@ -1,8 +1,6 @@
-package com.example.GKFlora.Entity;
+package com.example.GKFlora.entity;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
-import java.time.LocalDate;
-import java.time.LocalTime;
 
 
 import org.springframework.data.mongodb.core.mapping.Document;

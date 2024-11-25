@@ -1,7 +1,7 @@
-package com.example.GKFlora.Controller;
+package com.example.GKFlora.controller;
 
-import com.example.GKFlora.Entity.Delivery;
-import com.example.GKFlora.Service.DeliveryServices;
+import com.example.GKFlora.entity.Delivery;
+import com.example.GKFlora.service.DeliveryServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

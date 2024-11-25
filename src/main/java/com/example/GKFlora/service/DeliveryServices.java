@@ -1,7 +1,7 @@
-package com.example.GKFlora.Service;
+package com.example.GKFlora.service;
 
-import com.example.GKFlora.Entity.Delivery;
-import com.example.GKFlora.Repo.DeliveryRepo;
+import com.example.GKFlora.entity.Delivery;
+import com.example.GKFlora.repo.DeliveryRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
