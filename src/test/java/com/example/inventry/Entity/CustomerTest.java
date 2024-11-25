@@ -1,4 +1,4 @@
-package com.example.inventry.Entity;
+package com.example.inventry.entity;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
