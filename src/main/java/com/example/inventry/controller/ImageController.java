@@ -1,11 +1,13 @@
-package com.example.inventry.controller;
+/*package com.example.inventry.controller;
 
 
 import com.example.inventry.service.ImageService;
 import com.mongodb.client.gridfs.GridFSBucket;
 
+import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -23,10 +25,15 @@ public class ImageController {
 
 
     @PostMapping("/upload")
-    public String uploadImage(@RequestParam("file") MultipartFile file) throws IOException {
-
-        return imageService.uploadImage(file);
+    public ResponseEntity<String> uploadFile(@RequestParam("file") MultipartFile file) {
+        try {
+            ObjectId fileId = imageService.uploadImage(file);
+            return ResponseEntity.ok("File uploaded successfully with ID: " + fileId.toString());
+        } catch (IOException e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("File upload failed!");
+        }
     }
+
 
 
 
@@ -48,4 +55,7 @@ public class ImageController {
             return ResponseEntity.notFound().build();
         }
     }
+
+
 }
+*/

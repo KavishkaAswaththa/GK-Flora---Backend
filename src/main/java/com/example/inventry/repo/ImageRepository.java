@@ -10,8 +10,8 @@ import java.io.ByteArrayOutputStream;
 @Repository
 public class ImageRepository {
 
-@Autowired
-private GridFSBucket gridFSBucket;
+    @Autowired
+    private GridFSBucket gridFSBucket;
 
     public byte[] downloadImage(String id) throws Exception {
         try (ByteArrayOutputStream outputStream = new ByteArrayOutputStream()) {
