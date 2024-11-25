@@ -1,4 +1,4 @@
-package com.example.demo.Entity;
+package com.example.inventry.Entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

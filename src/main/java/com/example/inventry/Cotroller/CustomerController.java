@@ -1,7 +1,7 @@
-package com.example.demo.Cotroller;
+package com.example.inventry.Cotroller;
 
-import com.example.demo.Entity.Customer;
-import com.example.demo.Service.CustomerServices;
+import com.example.inventry.Entity.Customer;
+import com.example.inventry.Service.CustomerServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
