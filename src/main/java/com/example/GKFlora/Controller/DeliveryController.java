@@ -28,6 +28,7 @@ public class DeliveryController {
     }
 
 
+
     @GetMapping(value = "/getall")
     public Iterable<Delivery> getDelivery(){
         return deliveryServices.listAll();
@@ -37,6 +38,7 @@ public class DeliveryController {
     public Iterable<Delivery> getDeliveryadmin(){
         return deliveryServices.listAll();
     }
+
 
 
 
