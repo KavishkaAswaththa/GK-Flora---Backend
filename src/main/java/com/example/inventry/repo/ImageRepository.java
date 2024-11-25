@@ -11,7 +11,7 @@ import java.io.ByteArrayOutputStream;
 public class ImageRepository {
 
     @Autowired
-    private GridFSBucket gridFSBucket;
+    GridFSBucket gridFSBucket;
 
     public byte[] downloadImage(String id) throws Exception {
         try (ByteArrayOutputStream outputStream = new ByteArrayOutputStream()) {
